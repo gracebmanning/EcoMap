@@ -1,13 +1,14 @@
-import logo from './tempLogo.png';
 import './App.css';
-import NavBar from './components/navBar';
-import Home from './components/home';
+import Header from './components/Header';
+import Main from './components/Main';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-        <NavBar/>
-        <Home />
+        <Header />
+        <Main />
+        <Footer />
     </div>
   );
 }
