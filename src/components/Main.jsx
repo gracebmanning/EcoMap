@@ -8,7 +8,16 @@ class Main extends Component {
         return ( 
             <div className="Main">
                 <p>This is where the bulk of our content will go.</p>
+                <label>
+                    Starting point
+                    <input name="start" />
+                </label>
+                <label>
+                    Destination
+                    <input name="end" />
+                </label>
                 <Button>Start</Button>
+                
             </div>
         );
     }
