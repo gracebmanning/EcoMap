@@ -6,16 +6,16 @@
   flex-direction: column;
   align-items: center;
   padding: 1em;
-  background-color: red;
-  color: #fff;
+  background-color: #006a4e;
+  color: #b8d5ce;
 }
 
 .fa-github {
   font-size: 4rem;
   text-decoration: none;
-  color: white;
+  color: #b8d5ce;
 }
 
 .fa-github:hover {
-  color: lightgoldenrodyellow;
+  color: #8abaae;
 }
