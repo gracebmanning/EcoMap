@@ -6,7 +6,7 @@ class Footer extends Component {
         return ( 
             <div className="Footer">
                 <h4>EcoMap<i className="fas fa-leaf"></i></h4>
-                <h5>Created by Grace Manning, Kaitlyn Suzuki, and April Lee.</h5>
+                <h5>Created by Grace Manning, Kaitlyn Suzuki, and Mignon April Lee.</h5>
                 <a  href="https://github.com/gracebmanning/EcoMap"
                     target="_blank"
                     rel="noreferrer noopener">

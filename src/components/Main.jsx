@@ -17,7 +17,6 @@ class Main extends Component {
                     <input name="end" />
                 </label>
                 <Button>Start</Button>
-                
             </div>
         );
     }
