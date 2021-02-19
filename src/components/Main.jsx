@@ -21,17 +21,17 @@ class Main extends Component {
         return ( 
             <div className="Main">
                 <p className="text">Enter a start location and destination to get the carbon emissions from the determined driving route.</p>
-                <label>
+                <label className="textBoxLabel">
                     Start Location
                     <TextInput />
                 </label>
                 <br />
-                <label>
+                <label className="textBoxLabel">
                     Destination
                     <TextInput />
                 </label>
                 <br />
-                <Button>Start</Button>
+                <Button>Calculate!</Button>
                 <br />
                 <p className="text">Route emissions (kg CO2):</p>
             </div>
