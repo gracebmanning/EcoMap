@@ -3,8 +3,8 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: baseline;
   padding: 1em;
+  flex-direction: column;
   margin-bottom: 2em;
   background-color: #006a4e;
   color: #b8d5ce;

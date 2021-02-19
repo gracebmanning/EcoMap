@@ -6,6 +6,7 @@ class Header extends Component {
         return ( 
             <div className="Header">
                 <h1>EcoMap<i className="fas fa-leaf"></i></h1>
+                <h4>We're on an E-mission</h4>
             </div>
          );
     }

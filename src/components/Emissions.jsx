@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-const request = require('request');
-console.log("hey" + request);
+
+
 
   
 class Emissions extends Component {
@@ -10,6 +10,7 @@ class Emissions extends Component {
 
         this.emissions = gal * 8.887;
     };
+
     render() { 
         return ( 
             <div className="Emissions">
