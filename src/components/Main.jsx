@@ -1,6 +1,20 @@
 import React, { Component } from 'react';
 import Button from './button.jsx';
 import './Main.css';
+import SearchBox from './SearchBox.jsx';
+
+const TextInput = props => {
+    return (
+      <div>
+        <input
+          type="text"
+          value={props.value}
+          onChange={event => console.log("value changed!")}
+        />
+      </div>
+    );
+  };
+
 
 class Main extends Component {
     state = {  }
@@ -9,13 +23,15 @@ class Main extends Component {
             <div className="Main">
                 <p>This is where the bulk of our content will go.</p>
                 <label>
-                    Starting point
-                    <input name="start" />
+                    Start Location
+                    <TextInput />
                 </label>
+                <br />
                 <label>
                     Destination
-                    <input name="end" />
+                    <TextInput />
                 </label>
+
                 <Button>Start</Button>
             </div>
         );

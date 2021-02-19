@@ -1,6 +1,6 @@
 import React from 'react'
 import GoogleMapReact from 'google-map-react'
-import './map.css'
+import './Map.css'
 import { Icon, InlineIcon } from '@iconify/react';
 import mapMarker from '@iconify-icons/el/map-marker';
 
