@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
+/*
 export default class SearchBox extends Component {
   static propTypes = {
     placeholder: React.PropTypes.string,
@@ -24,3 +25,4 @@ export default class SearchBox extends Component {
     window.google.maps.event.clearInstanceListeners(this.searchBox);
   }
 }
+*/
