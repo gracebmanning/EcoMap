@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Button from './button.jsx';
 import './Main.css';
-import SearchBox from './SearchBox.jsx';
 
 const TextInput = props => {
     return (
@@ -21,7 +20,7 @@ class Main extends Component {
     render() { 
         return ( 
             <div className="Main">
-                <p>This is where the bulk of our content will go.</p>
+                <p className="text">Enter a start location and destination to get the carbon emissions from the determined driving route.</p>
                 <label>
                     Start Location
                     <TextInput />
@@ -31,8 +30,10 @@ class Main extends Component {
                     Destination
                     <TextInput />
                 </label>
-
+                <br />
                 <Button>Start</Button>
+                <br />
+                <p className="text">Route emissions (kg CO2):</p>
             </div>
         );
     }

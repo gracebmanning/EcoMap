@@ -1,8 +1,12 @@
 import React from 'react'
 import GoogleMapReact from 'google-map-react'
-import './Map.css'
 import { Icon, InlineIcon } from '@iconify/react';
 import mapMarker from '@iconify-icons/el/map-marker';
+import Geocode from "react-geocode";
+import { GoogleMapsAPI } from '../client-config';
+import './map.css'
+
+Geocode.setApiKey( GoogleMapsAPI );
 
 
 const LocationPin = ({ text }) => (
@@ -16,7 +20,7 @@ const Map = ({ location, zoomLevel }) => (
   <div className="map">
     <div className="google-map">
       <GoogleMapReact
-        bootstrapURLKeys={{ key: '' }}
+        bootstrapURLKeys={{ key: {GoogleMapsAPI}, libraries: 'places' }}
         defaultCenter={location}
         defaultZoom={zoomLevel}
       >
