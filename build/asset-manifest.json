@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/EcoMap/static/css/main.a00d78bb.chunk.css",
+    "main.js": "/EcoMap/static/js/main.86678e16.chunk.js",
+    "main.js.map": "/EcoMap/static/js/main.86678e16.chunk.js.map",
+    "runtime-main.js": "/EcoMap/static/js/runtime-main.9c40bbc4.js",
+    "runtime-main.js.map": "/EcoMap/static/js/runtime-main.9c40bbc4.js.map",
+    "static/js/2.b01f8457.chunk.js": "/EcoMap/static/js/2.b01f8457.chunk.js",
+    "static/js/2.b01f8457.chunk.js.map": "/EcoMap/static/js/2.b01f8457.chunk.js.map",
+    "static/js/3.4c37453a.chunk.js": "/EcoMap/static/js/3.4c37453a.chunk.js",
+    "static/js/3.4c37453a.chunk.js.map": "/EcoMap/static/js/3.4c37453a.chunk.js.map",
+    "index.html": "/EcoMap/index.html",
+    "static/css/main.a00d78bb.chunk.css.map": "/EcoMap/static/css/main.a00d78bb.chunk.css.map",
+    "static/js/2.b01f8457.chunk.js.LICENSE.txt": "/EcoMap/static/js/2.b01f8457.chunk.js.LICENSE.txt",
+    "static/media/bootstrap.css": "/EcoMap/static/media/glyphicons-halflings-regular.be810be3.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9c40bbc4.js",
+    "static/js/2.b01f8457.chunk.js",
+    "static/css/main.a00d78bb.chunk.css",
+    "static/js/main.86678e16.chunk.js"
+  ]
+}
