@@ -7,4 +7,4 @@ Our goal is to provide a resource for people to determine the driving route that
 ### Notes
 
 Contributors: Grace Manning, Kaitlyn Suzuki, Mignon April Lee. </br>
-Produced during Jam for Change (https://www.icssc-jamforchange.com/).
+Produced during Jam for Change (https://www.icssc-jamforchange.com/) -- placed 3rd out of 6 submitted projects!
